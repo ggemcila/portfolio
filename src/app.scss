@@ -1,0 +1,17 @@
+.app{
+    height:100vh;
+
+    .sections{
+        width: 100%;
+        height: calc(100vh - 70px);
+        background-color: limegreen;
+        position: relative;
+        top:70px; //start after 70px, the height of the topbar - we don't have blanck space at the bottom
+
+        > *{
+            width: 100vw;
+            height:calc(100vh - 70px);
+        }
+        
+    }
+}
