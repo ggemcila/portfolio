@@ -9,6 +9,11 @@ export default function intro() {
                 <div className="container">
                     <div className="item">
                         <div className="left"></div>
+                        <div className="leftContainer">
+                            <div className="imgContainer">
+                                <img src="assets/bombhome.png" alt="" className="imghome" />
+                            </div>
+                        </div>
                         <div className="right"></div>
                     </div>
                 </div>
