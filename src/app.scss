@@ -7,10 +7,14 @@
         background-color: limegreen;
         position: relative;
         top:70px; //start after 70px, the height of the topbar - we don't have blanck space at the bottom
+        scroll-behavior:smooth;
+        scroll-snap-type: y mandatory;
+         
 
         > *{
             width: 100vw;
             height:calc(100vh - 70px);
+            scroll-snap-align: start; //when it goes to the next components you see only the next one
         }
         
     }
