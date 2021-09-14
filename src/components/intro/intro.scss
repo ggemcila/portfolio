@@ -6,5 +6,44 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     margin-top: 3em;
-    margin-left: 10em;
+    margin-left: 8em;
+     
 }
+
+.slider{
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    margin-top: 9em;
+
+    .container{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .item{
+            width: 700px;
+            height: 100%;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .left{
+                flex:4;
+                height: 100%;
+                background-color: yellowgreen;
+            }
+            .right{
+                flex:4;
+                height: 100%;
+                background-color: yellow;
+            }
+        }
+    }
+}
+ 
+ 
