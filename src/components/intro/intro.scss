@@ -2,23 +2,24 @@
     background-color: #F3752B;
 }
 .titleIntro{
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    margin-top: 0.5em;
-    margin-left: 8em;
+    margin-top: 2.5em;
+    margin-left: 5em;
+    margin-right: 5em;
      
 }
 
 .slider{
     height: 460px;
     margin-left: 19em;
-    padding-top: 9em;
+    padding-top: 4em;
     
     .container{
         .item{
             width: 900px;
-            background-color: #A44A3F;
+            background-color: #F3752B;
             display: flex;
             align-items: center;
             justify-content: center;
