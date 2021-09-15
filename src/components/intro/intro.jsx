@@ -1,6 +1,6 @@
 import "./intro.scss";
 export default function intro() {
-    
+
     const data =[
         {id:"1",
         title: "Quiz app",
@@ -21,17 +21,19 @@ export default function intro() {
                 Hi I'm Gemcila, Junior Web Developer who believes that aesthetically pleasing design is more usable, creates a positive response and encourages participation.
             </div>
             <div className="slider">
+            {data.map((d) => (  
                 <div className="container">
                     <div className="item">
                         <div className="left"></div>
                         <div className="leftContainer">
                             <div className="imgContainer">
-                                <img src="assets/bombhome.png" alt="" className="imghome" />
+                                <img src={d.img} alt="" className="imghome" />
                             </div>
                         </div>
                         <div className="right"></div>
                     </div>
                 </div>
+                ))}
             </div>
             <img src="assets/arrow.png" alt="" className="arrow left" />
             <img src="assets/arrow.png" alt="" className="arrow right" />
