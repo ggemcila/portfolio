@@ -12,13 +12,16 @@
 }
 
 .slider{
-    height: 460px;
-    margin-left: 19em;
+    height: 400px;
+    margin-left: 23.5em;
     padding-top: 4em;
+    display: flex;
+    position: absolute;
+    left: 0;
     
     .container{
         .item{
-            width: 900px;
+            width: 750px;
             background-color: #F3752B;
             display: flex;
             align-items: center;
@@ -46,4 +49,21 @@
     }
 }
  
- 
+.arrow{
+    height:20px;
+    cursor: pointer;
+    margin-top: 15em;
+     
+   
+    &.left{
+        left:100px;
+        transform: rotate(180deg);
+        margin-left: 20em;
+    }
+
+    &.right{
+        right:100px;
+        margin-left: 51.3em;   
+    }
+
+}

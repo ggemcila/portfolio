@@ -18,6 +18,8 @@ export default function intro() {
                     </div>
                 </div>
             </div>
+            <img src="assets/arrow.png" alt="" className="arrow left" />
+            <img src="assets/arrow.png" alt="" className="arrow right" />
         </div>
     )
 }
