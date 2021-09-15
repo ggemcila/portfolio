@@ -1,5 +1,7 @@
+import React, { useState } from 'react';
 import "./intro.scss";
-export default function intro() {
+
+const Intro = () => {
 
     const[currentSlide,setCurrentSlide] =  useState(0);
     const data = [
@@ -24,19 +26,26 @@ export default function intro() {
             img: "./assets/bombaccount.png",
         },
     ];
+
+    const handleClick = (way) =>{
+        way === "left" 
+        ? setCurrentSlide(currentSlide > 0 ? currentSlide-1 : 2) 
+        : setCurrentSlide(currentSlide < data.length -1 ? currentSlide +1 : 0 );
+    };
+
     return (
         <div className="intro" id="intro">
             <div className="titleIntro">
                 Hi I'm Gemcila, Junior Web Developer who believes that aesthetically pleasing design is more usable, creates a positive response and encourages participation.
             </div>
-            <div className="slider" style={{transform:`translateX(-${currentSlide*100}vw)`}}>
+            <div className="slider" style={{transform:`translateX(-${currentSlide*48}vw)`}}>
                 {data.map((d) => (
                     <div className="container">
                         <div className="item">
                             <div className="left"></div>
                             <div className="leftContainer">
                                 <div className="imgContainer">
-                                    <img src={d.img} alt="" className="imghome" />
+                                    <img src={d.img} alt="" className="imgslide" />
                                 </div>
                             </div>
                             <div className="right"></div>
@@ -49,3 +58,5 @@ export default function intro() {
         </div>
     )
 }
+
+export default Intro;
