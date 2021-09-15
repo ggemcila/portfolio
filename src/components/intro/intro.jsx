@@ -44,8 +44,8 @@ export default function intro() {
                     </div>
                 ))}
             </div>
-            <img src="assets/arrow.png" alt="" className="arrow left" />
-            <img src="assets/arrow.png" alt="" className="arrow right"  />
+            <img src="assets/arrow.png" alt="" className="arrow left" onClick={() => handleClick("left")}/>
+            <img src="assets/arrow.png" alt="" className="arrow right"  onClick={() => handleClick()}/>
         </div>
     )
 }
