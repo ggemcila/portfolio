@@ -1,8 +1,6 @@
 @import "../../global.scss";
 
-.topbar{
-    width: 100%;
-    height: 30px;
+#topbar{
     //background-color: #92374D;
     //background-color: #EDEDF4;
     //background-color: #2F4858;
@@ -10,6 +8,8 @@
     position: fixed;
     top:0;
     z-index: 3; //to show the topbar while scrolling
+    width: 100%;
+    height: 60px; 
 }
 .wrapper{
     display: flex;
