@@ -5,7 +5,10 @@ function Menu(){
         <div className="menu">
             <ul>
                 <li>
-                    <a href="#intro">Quiz app</a>
+                    <a href="#intro">Home</a>
+                </li>
+                <li>
+                    <a href="#quizapp">Quiz app</a>
                 </li>
                 <li>
                     <a href="#moviereview">Movie Review</a>
