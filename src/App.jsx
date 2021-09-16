@@ -6,11 +6,13 @@ import Weatherapp from "./components/weatherapp/Weatherapp";
 import Moviereview from "./components/moviereview/Moviereview";
 import Menu from "./components/menu/Menu";
 import "./app.scss";
+import React, { useState } from "react";
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="app">
-     <Topbar/>
+     <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
      <div className="sections">
        <Intro/>
