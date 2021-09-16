@@ -1,8 +1,8 @@
 import "./menu.scss";
 
-function Menu(){
+function Menu({menuOpen,setMenuOpen}){ //pass props
     return(
-        <div className="menu">
+        <div className={"menu" + (menuOpen && "active")}>
             <ul>
                 <li>
                     <a href="#intro">Home</a>
