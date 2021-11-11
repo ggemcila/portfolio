@@ -16,6 +16,9 @@ function Menu({menuOpen,setMenuOpen}){ //pass props
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#landingpage">Landing page</a>
                 </li>
+                <li onClick={()=>setMenuOpen(false)}>
+                    <a href="#intro" className="hometext">Home</a>
+                </li>
             </ul>
         </div>
     )

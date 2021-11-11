@@ -4,7 +4,8 @@ import Quizapp from "./components/quizapp/Quizapp";
 import Landingpage from "./components/landingpage/Landingpage";
 import Weatherapp from "./components/weatherapp/Weatherapp";
 import Moviereview from "./components/moviereview/Moviereview";
-import Menu from "./components/menu/Menu";
+import Menu from "./components/menuworks/Menu";
+import About from "./components/about/about";
 import "./app.scss";
 import React, { useState } from "react";
 
@@ -20,6 +21,7 @@ function App() {
        <Moviereview/>
        <Weatherapp/>
        <Landingpage/>
+       <About/>
      </div>
     </div>
   );
