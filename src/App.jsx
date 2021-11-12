@@ -1,7 +1,7 @@
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Quizapp from "./components/quizapp/Quizapp";
-import Landingpage from "./components/landingpage/Landingpage";
+ 
 import Weatherapp from "./components/weatherapp/Weatherapp";
 import Moviereview from "./components/moviereview/Moviereview";
 import Menu from "./components/menuworks/Menu";
@@ -20,7 +20,7 @@ function App() {
        <Quizapp/>
        <Moviereview/>
        <Weatherapp/>
-       <Landingpage/>
+       
        <About/>
      </div>
     </div>
