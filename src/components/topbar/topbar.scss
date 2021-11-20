@@ -9,25 +9,25 @@
     top:0;
     z-index: 3; //to show the topbar while scrolling
     width: 100%;
-    height: 60px; 
+    height: 100px; 
 }
 .wrapper{
     display: flex;
     align-items: center;
-    justify-content:end;
+    justify-content:start;
 }
 .about, .myworks{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.5em;
+    font-size: 2.7em;
     margin-top: 11px;
     color: #F3752B;
     cursor: pointer;
 }
 .myworks{
-    margin-right: 3em;
+     margin-left: 2em;
 }
 .about{
-    margin-right: 10em;
+    margin-left: 25em;
     text-decoration: none;
 }
 .about:hover, .myworks:hover{
@@ -35,9 +35,9 @@
 }
 .name{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2em;
+    font-size: 3em;
     color: #b34404;
-    margin-top: 10.5px;
-    margin-right: 22em;
     text-decoration: none;
+    margin-left: 1em;
+    margin-top: 10px;
 }
