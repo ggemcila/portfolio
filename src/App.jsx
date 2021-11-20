@@ -1,9 +1,8 @@
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Quizapp from "./components/quizapp/Quizapp";
- 
-import Weatherapp from "./components/weatherapp/Weatherapp";
-import Moviereview from "./components/moviereview/Moviereview";
+import Weatherapp from "./components/weatherapp/Weatherapp"; 
+import Gamesreview from "./components/gamesreview/Gamesreview";
 import Menu from "./components/menuworks/Menu";
 import About from "./components/about/about";
 import "./app.scss";
@@ -18,7 +17,7 @@ function App() {
      <div className="sections">
        <Intro/>
        <Quizapp/>
-       <Moviereview/>
+       <Gamesreview/>
        <Weatherapp/>
        
        <About/>

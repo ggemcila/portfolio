@@ -1,12 +1,12 @@
 @import "../../global.scss";
 
 #menu{
-    width:280px;
+    width:360px;
     height:48em;
     background-color: #EDEDF4;
     position: fixed;
     top:0;
-    right:-300px;
+    right:-360px;
     z-index: 2;
     display: flex;
     flex-direction: column;

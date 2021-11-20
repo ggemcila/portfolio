@@ -8,7 +8,7 @@ function Menu({menuOpen,setMenuOpen}){ //pass props
                     <a href="#quizapp">Quiz app</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#moviereview">Movie Review</a>
+                    <a href="#gamesreview">Games review app</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#weatherapp">Weather app</a>
