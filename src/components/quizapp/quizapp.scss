@@ -1,6 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 .quizapp{
     //background-color: #F39237;
     //background-color: #FFD6BA;
     //background-color: #EDEDF4;
     background-color: #F59F76;
 }
+.bombhome{
+    width: 75em; 
+    margin-left: 7em;
+    margin-top: 3em;
+
+}
+.technologies{
+    margin-left: 10em;
+    margin-top: 10em;
+    font-family: 'Varela Round';
+    color: white;
+}
+.technology{
+    margin-top: 3em;
+}
+.title{
+    margin-top:1.5em;
+    margin-left: 21.5em;
+    font-family: 'Varela Round';
+    color: white;
+    font-size: 3em;
+}
+.description{
+    font-family: 'Varela Round';
+    margin-top: 3em;
+    margin-left: 8em;
+    margin-right: 8em;
+    font-size: 2em;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+ 
