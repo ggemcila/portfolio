@@ -1,6 +1,17 @@
-.weatherapp{
-    background-color: #FFD6BA;
-    //background-color: #0D3B66;
-    //background-color: #35524A;
-   // background-color: #70A37F;
+.containerweather{
+    background-color: #C7C7C7;
+    display: flex;
+}
+ 
+.weathertoday{
+    width: 60em;
+    height: 30em;
+    margin-top: 10em;
+    margin-left: 4em;
+    margin-right: 38em;
+    margin-top: 19em;
+}
+.sky{
+    max-width: 110em;
+    height: 70em;
 }
