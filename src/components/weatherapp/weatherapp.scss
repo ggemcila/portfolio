@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 .containerweather{
     background-color: #C7C7C7;
     display: flex;
@@ -6,12 +8,43 @@
 .weathertoday{
     width: 60em;
     height: 30em;
-    margin-top: 10em;
-    margin-left: 4em;
-    margin-right: 38em;
+    margin-left: 5em;
+    margin-right: 20em;
     margin-top: 19em;
+    cursor: pointer;
 }
 .sky{
-    max-width: 110em;
-    height: 70em;
+    max-width: 70em;
+    height: 100%;
+}
+.weatherinfo{
+    background-image: url(../../assets/sky.png);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 90em;
+    height: 100%;
+}
+.title2{
+    font-size:3em;
+    font-family: 'Varela Round';
+    margin-top: 1.5em;
+    color: #183446;
+     
+}  
+.description2{
+    font-family: 'Varela Round';
+    font-size: 5em;
+    margin-top: 3em;
+    color: #183446;
+    padding: 0.4em;
+    padding-left: 1.5em;
+}
+.technologies2{
+    margin-left: 3.5em;
+    margin-top: 1em;
+    color: #183446;
+    font-weight: 600;
+    font-family: 'Varela Round';
+    font-size: 1.5em;
 }
