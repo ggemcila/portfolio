@@ -15,8 +15,7 @@ function App() {
      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
      <div className="sections">
-     <Weatherapp/>
-     <Intro/>
+       <Intro/>
        <Quizapp/>
        <Weatherapp/>
        <Gamesreview/>

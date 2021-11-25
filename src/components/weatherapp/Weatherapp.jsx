@@ -2,7 +2,7 @@ import "./weatherapp.scss";
 import weathertoday from "../../assets/weathertoday.png";
 
 export default function Weatherapp() {
-    const reactArray = "Weather app".split("")
+    const reactArray = "Weather_app".split("")
     return (
         <div className="containerweather"> 
         <div className="weatherapp" id="weatherapp">
