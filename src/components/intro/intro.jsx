@@ -1,13 +1,14 @@
 import "./intro.scss";
-import bomblogo from "../../assets/bomblogo.png";
-import weathertoday from "../../assets/weathertoday.png";
-
 const Intro = () => {
     return (
-        <div className="intro" id="intro">
-            <div className="titleIntro">
-                Hi I'm Gemcila, Junior Web Developer who believes that aesthetically pleasing design is more usable, creates a positive response and encourages participation.
+        <div className="introcontainer" id="intro">
+            <div className="textIntro1">
+                Hello, I'm Gemcila
             </div>
+            <div className="textIntro2">
+                Junior Web Developer who believes that aesthetically pleasing design is more usable, creates a positive response and encourages participation.
+            </div>
+
             
             
             

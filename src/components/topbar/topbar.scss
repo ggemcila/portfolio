@@ -1,9 +1,6 @@
 @import "../../global.scss";
 
 #topbar{
-    //background-color: #92374D;
-    //background-color: #EDEDF4;
-    //background-color: #2F4858;
     background-color: white;
     position: fixed;
     top:0;
@@ -12,7 +9,7 @@
     height: 100px; 
 }
 .wrapper{
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content:start;
 }

@@ -1,14 +1,21 @@
-.intro{
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+.introcontainer{
     background-color: #F3752B;
+    text-align: center;
 }
-.titleIntro{
-    font-size: 2em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    margin-top: 2.5em;
-    margin-left: 5em;
-    margin-right: 5em;
-     
+.textIntro1,.textIntro2{
+    font-size: 4em;
+    font-family: 'Varela Round';
+    color: white;  
+}
+.textIntro1{
+    margin-top: 5em;
+    margin-bottom: 1em;
+}
+.textIntro2{
+    margin-left: 3em;
+    margin-right: 3em;
+    color: #0e3742;
 }
 
 .slider{

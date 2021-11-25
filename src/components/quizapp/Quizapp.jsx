@@ -8,7 +8,7 @@ export default function Quizapp() {
             <h1 className="title">Quiz app</h1>
             <div className="container">
                 <div className="subtitleweather">Knowledge Bomb is a general knowledge quiz designed to test the user's skills against the clock</div>
-                <a href='https://magnetic-2021.herokuapp.com/'><img src={bombhome} className="bombhome"></img></a>
+                <a href='https://magnetic-2021.herokuapp.com/'><img src={bombhome} alt="quizapppage" className="bombhome"></img></a>
                 </div>
                 <div className="technologies">
                     <div className="technology">React JS | Node JS | Express | Mongo db | Animation | Figma | Logo designed by the team | Adapted for desktop, tablet and mobile </div>

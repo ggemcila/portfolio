@@ -6,7 +6,7 @@ export default function Weatherapp() {
     return (
         <div className="containerweather"> 
         <div className="weatherapp" id="weatherapp">
-           <img src={weathertoday} className="weathertoday"></img>
+           <img src={weathertoday} alt="weatherpage" className="weathertoday"></img>
            <div className="technologies2">
                <div className="technology2">Node JS | Express Handlebars | APIs | Forms</div>
             </div>  
