@@ -2,6 +2,7 @@ import "./weatherapp.scss";
 import weathertoday from "../../assets/weathertoday.png";
 
 export default function Weatherapp() {
+    const reactArray = "Weather app".split("")
     return (
         <div className="containerweather"> 
         <div className="weatherapp" id="weatherapp">
@@ -11,7 +12,11 @@ export default function Weatherapp() {
             </div>  
         </div>
         <div className="weatherinfo">
-            <h1 className="title2">Weather app</h1>
+            <h1 className="title2">
+                {reactArray.map((item, index) => (
+                    <span key={index}>{item}</span>
+                ))}
+            </h1>
             <div className="description2">
             Retrieve weather forecast for a particular location using OpenWeatherMap
             </div>
