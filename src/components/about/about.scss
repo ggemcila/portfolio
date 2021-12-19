@@ -1,3 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 .aboutpage{
     background-color: #F3752B;
+    
+}
+.about_title{
+    margin-top: 2em; 
+    font-size: 4em;
+    font-family: 'Varela Round';
+    text-align:left;
+    color:white;
+    margin-left: 2.5em;
+}
+.mytitle,.aboutbody{
+    font-family: 'Varela Round';
+    font-size: 1em;
+    margin-left: 2em;
+}
+ 
+.aboutcontainer1{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-left: 6em;
+}
+.aboutsubcontainer{
+    display: flex;
+    flex-direction: column;
+     
+}
+.aboutbody{
+    color: black;
+    font-size: 2em;
+    text-align:start;
+    margin-top: 1em; 
+      
+}
+.mypicture{
+    object-fit: contain;
+    margin-left: 2em;
+    width: 18em;
+    border-radius: 50%; 
+    margin-right: 15em;
+    margin-bottom: 30em;
+}
+.myinfos{
+    margin-top: 2em;
+    margin-left: 1.5em;
+    font-size: 2.5em;
+}
+.curriculumvitae{
+   color: white;
+   cursor: pointer;
+   font-size: 30px; 
+}
+.curriculumvitae:hover{
+    color: #7a3309;;
+}
+.contactme1,.contactme2,.contactme3,.contactme{
+    font-family: 'Varela Round';
+    font-size: 30px;
+}
+.contactme{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.group{
+    border-width: var(--corvid-border-width,var(--brw,1px));
+    background-color: #F3752B;
+}
+input[type=text] {
+    width: 25%;
+    height: 4em;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 0.5em;
+    background-color:#F59F76;
+    border-color:#F3752B;
+    border-right:solid #7a3309;
+    border-bottom: solid #7a3309;
+}
+::placeholder {
+    color: black;
+    font-size: 1.5em;
+}
+input[type=submit]:hover{
+    background-color:grey;
+    color: white;
+}
+input[type=submit] {
+    padding:10px 25px; 
+    background:#0e3742; 
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Varela Round';
+}
+.curriculumvitae{
+    text-decoration: none;
+}
+.submitbutton{
+    margin-top: 1em;
 }

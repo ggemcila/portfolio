@@ -9,8 +9,11 @@
     color: white;  
 }
 .textIntro1{
-    margin-top: 5em;
-    margin-bottom: 1em;
+    margin-top: 4em;
+    margin-bottom: 20px;
+    font-size: 6em;
+    animation:texts 3s 1;
+    position: relative;
 }
 .textIntro2{
     margin-left: 3em;
@@ -18,6 +21,20 @@
     color: #0e3742;
 }
 
+@keyframes texts{
+    0%{
+        color: #F3752B;
+        margin-bottom: -84px;
+    }
+    30%{
+         
+        margin-bottom: -84px;
+        letter-spacing: 8px;
+    }
+    85%{
+        margin-bottom: -84px;
+    }
+}
 .slider{
     height: 400px;
     margin-left: 23.5em;
