@@ -8,7 +8,7 @@ export default function Weatherapp() {
         <div className="weatherapp" id="weatherapp">
            <img src={weathertoday} alt="weatherpage" className="weathertoday"></img>
            <div className="technologies2">
-               <div className="technology2">Node JS | Express Handlebars | APIs | Forms</div>
+               <div className="technology2">Node.js | Express Handlebars | APIs | Forms</div>
             </div>  
         </div>
         <div className="weatherinfo">

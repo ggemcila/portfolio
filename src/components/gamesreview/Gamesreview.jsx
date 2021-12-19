@@ -5,7 +5,7 @@ export default function Gamesreview() {
         <div className="gamesreview" id="gamesreview">
              <h1 className="title3">Games review app</h1>
             <div className="screen"></div>
-            <div className="technologies3">React js | Node JS | Express | Mongo db | Insomnia </div>
+            <div className="technologies3">React.js | Node.js | Express | Mongo db | Insomnia </div>
         </div>
     )
 }

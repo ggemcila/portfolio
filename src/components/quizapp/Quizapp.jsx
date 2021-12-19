@@ -11,7 +11,7 @@ export default function Quizapp() {
                 <a href='https://magnetic-2021.herokuapp.com/'><img src={bombhome} alt="quizapppage" className="bombhome"></img></a>
                 </div>
                 <div className="technologies">
-                    <div className="technology">React JS | Node JS | Express | Mongo db | Animation | Figma | Logo designed by the team | Adapted for desktop, tablet and mobile </div>
+                    <div className="technology">React.js | Node.js | Express | Mongo db | Animation | Figma | Logo designed by the team | Adapted for desktop, tablet and mobile </div>
                 </div>
         </div>
     )
