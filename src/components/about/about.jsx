@@ -16,7 +16,8 @@ export default function About() {
                         <br/>
                         Master coding bootcamp at Codenation is where my interest on Web development began.
                         <br/>
-                        I have experience working on Javascript and React JS for most of my projects.
+                        I have experience working with Javascript, React.js and Mongo db for most of my projects and I like working with Python and Django too.
+                        I am currently experimenting new environments.
                         <br/>
                         As a Junior developer I am open to expand my knowledge through any opportunities on my way.
                     </p>
