@@ -1,7 +1,9 @@
 import "./about.scss";
 import profilephoto from "../../assets/profilephoto.JPG";
+import emailjs from 'emailjs-com';
 
-export default function About() {
+const About = ()=> {
+
     return (
         <div className="aboutpage" id="aboutpage">
 
@@ -24,21 +26,22 @@ export default function About() {
                     <div className="myinfos">
                         <a href="./assets/mycv.pdf" className="curriculumvitae">Curriculum vitae</a>
 
-                        <form className="contactme">
+                        <form className="contactme"  >
                             <h3 className="contactme">Let's work together!</h3>
-                            <div>
-                                <input type="text" placeholder="Name" />
+
+                            <div className="form-control" >
+                                <input type="text" name="name" placeholder="Name" />
                             </div>
 
-                            <div class="group">
-                                <input type="text" placeholder="Email"/>
+                            <div className="form-control">
+                                <input type="text" name="user_rmail" placeholder="Email"/>
                             </div>
 
-                            <div class="group">
-                                <input className="input1" type="text" placeholder="Message"/>
+                            <div className="form-control message">
+                                <input type="text" name="message" row="4" placeholder="Message"/>
                             </div>
 
-                            <input className="submitbutton" type="submit" value="Submit"/>
+                            <input className="submitbutton" type="submit" value="Send"/>
 
                         </form>
                 </div>
@@ -55,3 +58,5 @@ export default function About() {
         </div >
     )
 }
+
+export default About;

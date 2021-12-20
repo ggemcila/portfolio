@@ -44,7 +44,7 @@
     margin-bottom: 30em;
 }
 .myinfos{
-    margin-top: 2em;
+    margin-top: 1em;
     margin-left: 1.5em;
     font-size: 2.5em;
 }
@@ -64,7 +64,7 @@
     margin-top: 30px;
     margin-bottom: 10px;
 }
-.group{
+.form-control{
     border-width: var(--corvid-border-width,var(--brw,1px));
     background-color: #F3752B;
 }
@@ -104,4 +104,7 @@ input[type=submit] {
 }
 .submitbutton{
     margin-top: 1em;
+}
+input[name=message]{
+    height: 120px;
 }
