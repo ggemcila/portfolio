@@ -8,12 +8,7 @@ const Intro = () => {
             <div className="textIntro2">
                 Junior Web Developer who believes that aesthetically pleasing design is more usable and creates a positive response. 
             </div>
-
-            
-            
-            
         </div>
     )
 }
-
 export default Intro;
