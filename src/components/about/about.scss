@@ -70,7 +70,7 @@
 }
 input[type=text] {
     width: 25%;
-    height: 4em;
+    height: 2em;
     padding: 10px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -79,10 +79,11 @@ input[type=text] {
     border-color:#F3752B;
     border-right:solid #7a3309;
     border-bottom: solid #7a3309;
+    font-size: 1em;
 }
 ::placeholder {
     color: black;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 input[type=submit]:hover{
     background-color:grey;
@@ -108,3 +109,4 @@ input[type=submit] {
 input[name=message]{
     height: 120px;
 }
+ 
