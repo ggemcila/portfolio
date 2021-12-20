@@ -4,10 +4,9 @@ import Quizapp from "./components/quizapp/Quizapp";
 import Weatherapp from "./components/weatherapp/Weatherapp"; 
 import Gamesreview from "./components/gamesreview/Gamesreview";
 import Menu from "./components/menuworks/Menu";
-import About from "./components/about/about";
+import About from "./components/about/about"; 
 import "./app.scss";
-import React, { useState } from "react";
-
+import React, { useState } from "react"; 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
@@ -20,6 +19,7 @@ function App() {
        <Weatherapp/>
        <Gamesreview/>
        <About/>
+      
      </div>
     </div>
   );

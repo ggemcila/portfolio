@@ -29,13 +29,14 @@ const About = ()=> {
                         <br/>
                         Master coding bootcamp at Codenation is where my interest on Web development began.
                         <br/>
-                        I have experience working with Javascript, React.js and Mongo db for most of my projects and I like working with Python and Django too.
+                        I have experience working with Javascript, React.js and Mongo db for most of my projects 
+                        <br/>and I like working with Python and Django too.
                         I am currently experimenting new technologies.
                         <br/>
                         As a Junior developer I am open to expand my knowledge through any opportunities on my way.
                     </p>
                     <div className="myinfos">
-                        <a href="./assets/mycv.pdf" className="curriculumvitae">Curriculum vitae</a>
+                        <a href="#mycv" className="curriculumvitae">Curriculum vitae</a>
 
                         <form className="contactme" onSubmit={sendEmail}>
                             <h3 className="contactme">Let's work together!</h3>
@@ -57,10 +58,7 @@ const About = ()=> {
                         </form>
                 </div>
             </div>
-
-            <div> 
-            <img src={profilephoto} alt="mypicture" className="mypicture"></img>
-            </div>
+ 
         </div>
 
 
