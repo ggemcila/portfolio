@@ -3,7 +3,18 @@ import profilephoto from "../../assets/profilephoto.JPG";
 import emailjs from 'emailjs-com';
 
 const About = ()=> {
+    function sendEmail(e){
+        e.preventDefault();
 
+        emailjs.sendForm(
+            "service_h6ls2zm",
+            "template_mrj9x6r", 
+            e.target,
+            "user_TMIJMNSsqenl3BGXOp70b"
+            ).then(res=>{
+                console.log(res);
+            }).catch(err=> console.log(err));
+    }
     return (
         <div className="aboutpage" id="aboutpage">
 
@@ -26,7 +37,7 @@ const About = ()=> {
                     <div className="myinfos">
                         <a href="./assets/mycv.pdf" className="curriculumvitae">Curriculum vitae</a>
 
-                        <form className="contactme"  >
+                        <form className="contactme" onSubmit={sendEmail}>
                             <h3 className="contactme">Let's work together!</h3>
 
                             <div className="form-control" >
@@ -34,7 +45,7 @@ const About = ()=> {
                             </div>
 
                             <div className="form-control">
-                                <input type="text" name="user_rmail" placeholder="Email"/>
+                                <input type="text" name="user_email" placeholder="Email"/>
                             </div>
 
                             <div className="form-control message">
