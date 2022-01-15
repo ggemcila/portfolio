@@ -1,5 +1,5 @@
 import Topbar from "./components/topbar/Topbar";
-import Intro from "./components/intro/Intro";
+import Intro from "./components/intro/intro";
 import Quizapp from "./components/quizapp/Quizapp";
 import Weatherapp from "./components/weatherapp/Weatherapp"; 
 import Gamesreview from "./components/gamesreview/Gamesreview";
